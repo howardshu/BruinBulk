@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21442BD02C44DB2900004CE8 /* Bruin_BulkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21442BCF2C44DB2900004CE8 /* Bruin_BulkApp.swift */; };
+		21442BD22C44DB2900004CE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21442BD12C44DB2900004CE8 /* ContentView.swift */; };
+		21442BD42C44DB2B00004CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21442BD32C44DB2B00004CE8 /* Assets.xcassets */; };
+		21442BD72C44DB2B00004CE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21442BD62C44DB2B00004CE8 /* Preview Assets.xcassets */; };
+		21442BE12C44DB2C00004CE8 /* Bruin_BulkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21442BE02C44DB2C00004CE8 /* Bruin_BulkTests.swift */; };
+		21442BEB2C44DB2C00004CE8 /* Bruin_BulkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21442BEA2C44DB2C00004CE8 /* Bruin_BulkUITests.swift */; };
+		21442BED2C44DB2C00004CE8 /* Bruin_BulkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21442BEC2C44DB2C00004CE8 /* Bruin_BulkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21442BDD2C44DB2C00004CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21442BC42C44DB2900004CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21442BCB2C44DB2900004CE8;
+			remoteInfo = "Bruin Bulk";
+		};
+		21442BE72C44DB2C00004CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21442BC42C44DB2900004CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21442BCB2C44DB2900004CE8;
+			remoteInfo = "Bruin Bulk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21442BCC2C44DB2900004CE8 /* Bruin Bulk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bruin Bulk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21442BCF2C44DB2900004CE8 /* Bruin_BulkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bruin_BulkApp.swift; sourceTree = "<group>"; };
+		21442BD12C44DB2900004CE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21442BD32C44DB2B00004CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21442BD62C44DB2B00004CE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21442BDC2C44DB2C00004CE8 /* Bruin BulkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bruin BulkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21442BE02C44DB2C00004CE8 /* Bruin_BulkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bruin_BulkTests.swift; sourceTree = "<group>"; };
+		21442BE62C44DB2C00004CE8 /* Bruin BulkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bruin BulkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21442BEA2C44DB2C00004CE8 /* Bruin_BulkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bruin_BulkUITests.swift; sourceTree = "<group>"; };
+		21442BEC2C44DB2C00004CE8 /* Bruin_BulkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bruin_BulkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21442BC92C44DB2900004CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21442BD92C44DB2C00004CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21442BE32C44DB2C00004CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21442BC32C44DB2900004CE8 = {
+			isa = PBXGroup;
+			children = (
+				21442BCE2C44DB2900004CE8 /* Bruin Bulk */,
+				21442BDF2C44DB2C00004CE8 /* Bruin BulkTests */,
+				21442BE92C44DB2C00004CE8 /* Bruin BulkUITests */,
+				21442BCD2C44DB2900004CE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21442BCD2C44DB2900004CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21442BCC2C44DB2900004CE8 /* Bruin Bulk.app */,
+				21442BDC2C44DB2C00004CE8 /* Bruin BulkTests.xctest */,
+				21442BE62C44DB2C00004CE8 /* Bruin BulkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21442BCE2C44DB2900004CE8 /* Bruin Bulk */ = {
+			isa = PBXGroup;
+			children = (
+				21442BCF2C44DB2900004CE8 /* Bruin_BulkApp.swift */,
+				21442BD12C44DB2900004CE8 /* ContentView.swift */,
+				21442BD32C44DB2B00004CE8 /* Assets.xcassets */,
+				21442BD52C44DB2B00004CE8 /* Preview Content */,
+			);
+			path = "Bruin Bulk";
+			sourceTree = "<group>";
+		};
+		21442BD52C44DB2B00004CE8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				21442BD62C44DB2B00004CE8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21442BDF2C44DB2C00004CE8 /* Bruin BulkTests */ = {
+			isa = PBXGroup;
+			children = (
+				21442BE02C44DB2C00004CE8 /* Bruin_BulkTests.swift */,
+			);
+			path = "Bruin BulkTests";
+			sourceTree = "<group>";
+		};
+		21442BE92C44DB2C00004CE8 /* Bruin BulkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21442BEA2C44DB2C00004CE8 /* Bruin_BulkUITests.swift */,
+				21442BEC2C44DB2C00004CE8 /* Bruin_BulkUITestsLaunchTests.swift */,
+			);
+			path = "Bruin BulkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21442BCB2C44DB2900004CE8 /* Bruin Bulk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21442BF02C44DB2C00004CE8 /* Build configuration list for PBXNativeTarget "Bruin Bulk" */;
+			buildPhases = (
+				21442BC82C44DB2900004CE8 /* Sources */,
+				21442BC92C44DB2900004CE8 /* Frameworks */,
+				21442BCA2C44DB2900004CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bruin Bulk";
+			productName = "Bruin Bulk";
+			productReference = 21442BCC2C44DB2900004CE8 /* Bruin Bulk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21442BDB2C44DB2C00004CE8 /* Bruin BulkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21442BF32C44DB2C00004CE8 /* Build configuration list for PBXNativeTarget "Bruin BulkTests" */;
+			buildPhases = (
+				21442BD82C44DB2C00004CE8 /* Sources */,
+				21442BD92C44DB2C00004CE8 /* Frameworks */,
+				21442BDA2C44DB2C00004CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21442BDE2C44DB2C00004CE8 /* PBXTargetDependency */,
+			);
+			name = "Bruin BulkTests";
+			productName = "Bruin BulkTests";
+			productReference = 21442BDC2C44DB2C00004CE8 /* Bruin BulkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21442BE52C44DB2C00004CE8 /* Bruin BulkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21442BF62C44DB2C00004CE8 /* Build configuration list for PBXNativeTarget "Bruin BulkUITests" */;
+			buildPhases = (
+				21442BE22C44DB2C00004CE8 /* Sources */,
+				21442BE32C44DB2C00004CE8 /* Frameworks */,
+				21442BE42C44DB2C00004CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21442BE82C44DB2C00004CE8 /* PBXTargetDependency */,
+			);
+			name = "Bruin BulkUITests";
+			productName = "Bruin BulkUITests";
+			productReference = 21442BE62C44DB2C00004CE8 /* Bruin BulkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21442BC42C44DB2900004CE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					21442BCB2C44DB2900004CE8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					21442BDB2C44DB2C00004CE8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 21442BCB2C44DB2900004CE8;
+					};
+					21442BE52C44DB2C00004CE8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 21442BCB2C44DB2900004CE8;
+					};
+				};
+			};
+			buildConfigurationList = 21442BC72C44DB2900004CE8 /* Build configuration list for PBXProject "Bruin Bulk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21442BC32C44DB2900004CE8;
+			productRefGroup = 21442BCD2C44DB2900004CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21442BCB2C44DB2900004CE8 /* Bruin Bulk */,
+				21442BDB2C44DB2C00004CE8 /* Bruin BulkTests */,
+				21442BE52C44DB2C00004CE8 /* Bruin BulkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21442BCA2C44DB2900004CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21442BD72C44DB2B00004CE8 /* Preview Assets.xcassets in Resources */,
+				21442BD42C44DB2B00004CE8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21442BDA2C44DB2C00004CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21442BE42C44DB2C00004CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21442BC82C44DB2900004CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21442BD22C44DB2900004CE8 /* ContentView.swift in Sources */,
+				21442BD02C44DB2900004CE8 /* Bruin_BulkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21442BD82C44DB2C00004CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21442BE12C44DB2C00004CE8 /* Bruin_BulkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21442BE22C44DB2C00004CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21442BEB2C44DB2C00004CE8 /* Bruin_BulkUITests.swift in Sources */,
+				21442BED2C44DB2C00004CE8 /* Bruin_BulkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21442BDE2C44DB2C00004CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21442BCB2C44DB2900004CE8 /* Bruin Bulk */;
+			targetProxy = 21442BDD2C44DB2C00004CE8 /* PBXContainerItemProxy */;
+		};
+		21442BE82C44DB2C00004CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21442BCB2C44DB2900004CE8 /* Bruin Bulk */;
+			targetProxy = 21442BE72C44DB2C00004CE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21442BEE2C44DB2C00004CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21442BEF2C44DB2C00004CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21442BF12C44DB2C00004CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bruin Bulk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howardshu.Bruin-Bulk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21442BF22C44DB2C00004CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bruin Bulk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howardshu.Bruin-Bulk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21442BF42C44DB2C00004CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howardshu.Bruin-BulkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bruin Bulk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bruin Bulk";
+			};
+			name = Debug;
+		};
+		21442BF52C44DB2C00004CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howardshu.Bruin-BulkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bruin Bulk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bruin Bulk";
+			};
+			name = Release;
+		};
+		21442BF72C44DB2C00004CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howardshu.Bruin-BulkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bruin Bulk";
+			};
+			name = Debug;
+		};
+		21442BF82C44DB2C00004CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howardshu.Bruin-BulkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bruin Bulk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21442BC72C44DB2900004CE8 /* Build configuration list for PBXProject "Bruin Bulk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21442BEE2C44DB2C00004CE8 /* Debug */,
+				21442BEF2C44DB2C00004CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21442BF02C44DB2C00004CE8 /* Build configuration list for PBXNativeTarget "Bruin Bulk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21442BF12C44DB2C00004CE8 /* Debug */,
+				21442BF22C44DB2C00004CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21442BF32C44DB2C00004CE8 /* Build configuration list for PBXNativeTarget "Bruin BulkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21442BF42C44DB2C00004CE8 /* Debug */,
+				21442BF52C44DB2C00004CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21442BF62C44DB2C00004CE8 /* Build configuration list for PBXNativeTarget "Bruin BulkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21442BF72C44DB2C00004CE8 /* Debug */,
+				21442BF82C44DB2C00004CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21442BC42C44DB2900004CE8 /* Project object */;
+}
