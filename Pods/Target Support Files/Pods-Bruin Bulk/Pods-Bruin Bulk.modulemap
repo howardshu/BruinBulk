@@ -1,0 +1,6 @@
+framework module Pods_Bruin_Bulk {
+  umbrella header "Pods-Bruin Bulk-umbrella.h"
+
+  export *
+  module * { export * }
+}
