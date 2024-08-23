@@ -14,6 +14,18 @@ import Foundation
  lose information about all possible food options and restaurants for past days, only keep meal history
  */
 
+struct DiningHall: Identifiable, Codable {
+    var id: UUID = UUID() // Automatically generate a unique ID
+    var name: String
+    var url: String
+}
+
+struct MenuItem: Identifiable, Codable {
+    var id: UUID = UUID() // Automatically generate a unique ID
+    var name: String
+    var nutrition: [Double] // Array to hold nutrition facts (e.g., calories, fat, etc.)
+}
+
 struct Day {
     var meals: Meal
 }
