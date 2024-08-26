@@ -14,16 +14,27 @@ import Foundation
  lose information about all possible food options and restaurants for past days, only keep meal history
  */
 
+//struct DiningHallList: Codable {
+//    var dining_halls: [DiningHall] // matches with key name in the JSON object
+//}
+
 struct DiningHall: Identifiable, Codable {
     var id: UUID = UUID() // Automatically generate a unique ID
     var name: String
-    var url: String
+    
+    private enum CodingKeys: String, CodingKey {
+        case name
+    }
 }
 
 struct MenuItem: Identifiable, Codable {
     var id: UUID = UUID() // Automatically generate a unique ID
     var name: String
-    var nutrition: [Double] // Array to hold nutrition facts (e.g., calories, fat, etc.)
+    var nutrition: [Double]? // Array to hold nutrition facts (e.g., calories, fat, etc.)
+    
+    private enum CodingKeys: String, CodingKey {
+        case name, nutrition
+    }
 }
 
 struct Day {

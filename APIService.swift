@@ -7,13 +7,6 @@
 
 import Foundation
 
-//enum request {
-//    static let url = "http://127.0.0.1:5000"
-//    
-//    case get
-//    case post
-//}
-
 class APIService {
     // Intend to access APIService from many different Views
     // This ensures APIService only has one instance that can be accessed globally (singleton)
@@ -41,12 +34,22 @@ class APIService {
             }
             
             do {
-                let halls = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
-                print(halls)
-//                let diningHalls = try JSONDecoder().decode([String: String].self, from: data)
+//                guard let halls = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String]
+//                else {
+//                    print("Error retrieving list of halls as array of Strings")
+//                    return
+//                }
+//                
+//                // Manually decode the JSON object into an array of DiningHall objects
+//                var diningHalls: [DiningHall] = []
+//                diningHalls.reserveCapacity(10)
+//                for hall_name in halls {
+//                    diningHalls.append(DiningHall(name: hall_name))
+//                }
+                
+                let diningHalls = try JSONDecoder().decode([DiningHall].self, from: data)
 //                let halls = diningHalls.map { DiningHall(name: $0.key, url: $0.value) }
-//                completion(halls)
-                completion(nil)
+                completion(diningHalls)
             } catch {
                 print("Error decoding dining halls: \(error)")
                 completion(nil)
@@ -76,11 +79,11 @@ class APIService {
             }
             
             do {
-                let menu = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
-                print(menu)
-                completion(nil)
-//                let menuItems = try JSONDecoder().decode([MenuItem].self, from: data)
-//                completion(menuItems)
+//                let menu = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+//                print(menu)
+//                completion(nil)
+                let menuItems = try JSONDecoder().decode([MenuItem].self, from: data)
+                completion(menuItems)
             } catch {
                 print("Error decoding menu: \(error)")
                 completion(nil)
