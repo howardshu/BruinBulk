@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21089F772C7E9CF500168AB7 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21089F762C7E9CF500168AB7 /* ViewModels.swift */; };
+		21089F7D2C7EDD2A00168AB7 /* ListViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21089F7C2C7EDD2A00168AB7 /* ListViews.swift */; };
 		21442BD02C44DB2900004CE8 /* Bruin_BulkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21442BCF2C44DB2900004CE8 /* Bruin_BulkApp.swift */; };
 		21442BD22C44DB2900004CE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21442BD12C44DB2900004CE8 /* ContentView.swift */; };
 		21442BD42C44DB2B00004CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21442BD32C44DB2B00004CE8 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21089F762C7E9CF500168AB7 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		21089F7C2C7EDD2A00168AB7 /* ListViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViews.swift; sourceTree = "<group>"; };
 		21442BCC2C44DB2900004CE8 /* Bruin Bulk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bruin Bulk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21442BCF2C44DB2900004CE8 /* Bruin_BulkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bruin_BulkApp.swift; sourceTree = "<group>"; };
 		21442BD12C44DB2900004CE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				214DC7C42C6ADCB100F0B39C /* Constants.swift */,
 				214DC7C22C6AD62400F0B39C /* Objects.swift */,
 				21DFDEE32C73347F007436AD /* APIService.swift */,
+				21089F762C7E9CF500168AB7 /* ViewModels.swift */,
+				21089F7C2C7EDD2A00168AB7 /* ListViews.swift */,
 				21CE38682C785DDB00158BE8 /* TestPlayground.playground */,
 				21442BCE2C44DB2900004CE8 /* Bruin Bulk */,
 				21442BDF2C44DB2C00004CE8 /* Bruin BulkTests */,
@@ -268,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21089F772C7E9CF500168AB7 /* ViewModels.swift in Sources */,
+				21089F7D2C7EDD2A00168AB7 /* ListViews.swift in Sources */,
 				214DC7C52C6ADCB100F0B39C /* Constants.swift in Sources */,
 				21442BD22C44DB2900004CE8 /* ContentView.swift in Sources */,
 				214DC7C32C6AD62400F0B39C /* Objects.swift in Sources */,
